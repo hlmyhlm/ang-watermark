@@ -9,8 +9,8 @@ export class WatermarkComponent implements OnInit {
 
   watermarkData = [
     { id: "1", name: "John", lastname: "Doe" },
-    { id: "2", name: "Jane", lastname: "Smith" },
-    { id: "3", name: "Bob", lastname: "Johnson" }
+ //   { id: "2", name: "Jane", lastname: "Smith" },
+  //  { id: "3", name: "Bob", lastname: "Johnson" }
     /* Add more data as needed */
   ];
 
