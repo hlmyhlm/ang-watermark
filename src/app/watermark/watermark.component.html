@@ -1,0 +1,11 @@
+<!-- watermark.component.html -->
+
+<button class="printButton" (click)="printToPdf()">Print to PDF</button>
+<div *ngFor="let style of watermarkStyles"
+     class="watermark"
+     [ngStyle]="{ 'top': style.top, 'left': style.left }"
+>
+  ID: {{ style.data.id }}<br/>
+  Name: {{ style.data.name }}<br/>
+  Last name: {{ style.data.lastname }}
+</div>

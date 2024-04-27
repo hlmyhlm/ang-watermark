@@ -1,0 +1,23 @@
+/* Existing CSS rules... */
+
+/* ... */
+
+.watermark {
+  position: fixed;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  transform: rotate(30deg);
+  z-index: 9999;
+  text-align: center;
+}
+
+/* At the end of your file, add: */
+
+@media print {
+  /* In print mode, hide any elements with class 'printButton' */
+  .printButton {
+    display: none;
+  }
+}
